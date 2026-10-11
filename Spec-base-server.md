@@ -1,4 +1,4 @@
-Spec servidor - Caso 2 POO
+Spec server - Caso 2 POO
 
 Constants (package constants)
 
