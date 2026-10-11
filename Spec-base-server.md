@@ -196,7 +196,7 @@ Network (package network) // Paquete de integracion y conectividad de red
    		- String currentRoomCode // Codigo de sesion del room en el que se encuentra el jugador
    		- MessageRouterServer router // Enrutador instanciado para redirigir las peticiones parseadas
    		+ void run() // Bucle de lectura de entrada del socket mientras este vivo
-   		+ void sendMessage(String type, Object payload) // Formatea en JSON y escupe el string al socket de salida
+   		+ void sendMessage(String type, Object payload) // Formatea en JSON y brinda el string al socket de salida
 
 	class MessageRouterServer // Modulo intermedio que decide a que handler derivar la instruccion
 
